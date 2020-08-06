@@ -4,13 +4,14 @@ import landingImg from '../../assets/images/landing.svg';
 import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
+import './styles.css'
 
 
 function Landing() {
     return (
         <div id="page-landing">
             <div id="page-landing-content" className="container">
-                <div id="logo-container">
+                <div className="logo-container">
                     <img src={LogoImg} alt="Logo Proffy"/>
                     <h2>Sua plataforme de estudos online.</h2>
                 </div>
@@ -23,8 +24,8 @@ function Landing() {
                     </a>
 
                     <a href="" className="give-classes">
-                        <img src={giveClassesIcon} alt="Estudar" />
-                        Estudar
+                        <img src={giveClassesIcon} alt="Ensinar" />
+                        Ensinar
                     </a>
                 </div>
 
